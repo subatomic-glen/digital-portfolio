@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  id: b006e44f-aec8-4d0d-8255-ae8b17fa9b81
+  title: Digital Portfolio
+  authors: 
+    - name: Alex Do
+  bibliography:
+    - references.bib
+  toc:
+    - file: intro.md
+    - title: Information
+      children:
+        - file: about_me.md
+        - file: CV.md
+    - title: Example of Analysis
+      children:
+        - file: analysis_example.ipynb
+        - file: citations.md
+    
+site:
+  template: book-theme
+  options:
+    logo: profile-picture.png
+
